@@ -14,26 +14,53 @@ namespace _1_Fuel
             //Part1(new List<int>{ 1, 23, 12312 }.GetEnumerator());
 
             //Part1(inputProvider);
-            Part1(new List<int> { 12, 661, 213 }.GetEnumerator());
+            //Part1(new List<int> { 12, 14, 1969, 100756 }.GetEnumerator());
 
-            //inputProvider.Reset();
+            inputProvider.Reset();
 
-            //Part2(inputProvider);
+            Part2(inputProvider);
+            //Part2(new List<int> { 1969 }.GetEnumerator());
         }
 
         private static void Part1(IEnumerator<int> inputProvider)
         {
+
+            int sum = 0;
+         
+            while (inputProvider.MoveNext())
+            {
+                int x = inputProvider.Current;
+                sum = sum + (x / 3 - 2);    
+
+            }
+
+            Console.WriteLine(sum);
+        }
+
+
+        private static void Part2(IEnumerator<int> inputProvider)
+        {
+            int sum = 0;
             while (inputProvider.MoveNext())
             {
                 int x = inputProvider.Current;
 
-                Console.WriteLine(x);
+                while (x > 0)
+                {
+                    x = x / 3 - 2;
+
+                    if (x > 0)
+                    {
+                        sum = sum + x;
+                        //Console.WriteLine(x);
+                    }
+                    
+                }
+
+                
             }
-        }
 
-        private static void Part2(IEnumerator<int> inputProvider)
-        {
-
+            Console.WriteLine(sum);
         }
 
     }
