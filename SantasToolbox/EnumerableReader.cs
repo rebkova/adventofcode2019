@@ -28,10 +28,7 @@ namespace SantasToolbox
             return range;
         }
 
-        public void Reset()
-        {
-            this.ResetEx();
-        }
+        public void Reset() => this.ResetEx();
 
         private IEnumerable<T> ResetEx()
         {

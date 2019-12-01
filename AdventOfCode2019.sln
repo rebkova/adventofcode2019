@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day0_CSharp8Explore", "Day0_CSharp8Explore\Day0_CSharp8Explore.csproj", "{585098CC-2533-4586-B7C9-5E3A1A4A6C4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day0_CSharp8Explore", "Day0_CSharp8Explore\Day0_CSharp8Explore.csproj", "{585098CC-2533-4586-B7C9-5E3A1A4A6C4F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SantasToolbox", "SantasToolbox\SantasToolbox.csproj", "{77D567A4-B468-4252-B07C-E648F040CEA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Fuel", "1_Fuel\1_Fuel.csproj", "{0ED94A21-7200-4600-AFBB-3BA4CBD33E7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{77D567A4-B468-4252-B07C-E648F040CEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D567A4-B468-4252-B07C-E648F040CEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D567A4-B468-4252-B07C-E648F040CEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED94A21-7200-4600-AFBB-3BA4CBD33E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED94A21-7200-4600-AFBB-3BA4CBD33E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED94A21-7200-4600-AFBB-3BA4CBD33E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED94A21-7200-4600-AFBB-3BA4CBD33E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

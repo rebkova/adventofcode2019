@@ -20,7 +20,7 @@ namespace SantasToolbox
 
         public T Current { get; private set; }
 
-        object IEnumerator.Current => this.Current;
+        object? IEnumerator.Current => this.Current;
 
         public void Dispose()
         {
